@@ -1,8 +1,8 @@
-/* Clay palette (warm, after Anthropic/Claude). */
+/* Warm paper neutrals with the EgoCogNav indigo accent. */
 :root{
   --bg:#fcfbf8; --surface:#ffffff; --surface-2:#f0eee6;
   --ink:#141413; --text:#3d3d3a; --text-2:#5e5d59; --muted:#87867f;
-  --line:#e8e6dc; --accent:#c96442; --tint:#f5e6dd;
+  --line:#e8e6dc; --accent:#4f46e5; --tint:#eef0ff;
   --sans:'Geist', -apple-system, 'Helvetica Neue', Arial, sans-serif;
   --display:'Instrument Sans', 'Geist', -apple-system, 'Helvetica Neue', Arial, sans-serif;
   --mono:'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
