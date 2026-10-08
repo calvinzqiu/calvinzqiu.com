@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kwai for Business · Zhiwen Qiu</title>
+<meta name="description" content="Kwai for Business: an ads manager that reaches an engaged audience to achieve business goals. UX design for AI at Kuaishou Technology, 2021.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav aria-label="Primary">
+  <div class="wrap">
+    <a class="brand" href="../">Zhiwen Qiu</a>
+    <div class="navlinks">
+      <a href="../#research">Research</a>
+      <a href="../#design">Design</a>
+      <button class="iconbtn" id="theme" type="button" aria-label="Toggle dark mode">
+        <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap cs">
+  <header class="cs-head">
+    <a class="back" href="../#design">← Design</a>
+    <h1>Kwai for Business</h1>
+    <p class="cs-sub">An ads manager that reaches an engaged audience to achieve business goals.</p>
+  </header>
+
+  <img class="hero-img" src="../assets/kwai/hero.webp" alt="Kwai for Business ads manager dashboard beside a 'Tell Your Story to the World' landing page">
+
+  <dl class="facts">
+    <div><dt>Team</dt><dd>Zhiwen Qiu, W. Duan, Chen Ye</dd></div>
+    <div><dt>Duration</dt><dd>Jun – Oct 2021</dd></div>
+    <div><dt>Project type</dt><dd>Professional, Kuaishou Technology</dd></div>
+    <div><dt>Focus</dt><dd>UX design for AI</dd></div>
+  </dl>
+
+  <div class="prose">
+    <p>Kuaishou has expanded rapidly in overseas markets, reaching 170 million monthly active users in July 2021 with Kwai Video. Kwai for Business is the ads manager that empowers overseas companies to accelerate revenue growth through video ads.</p>
+    <p>The challenges in designing ad systems are twofold. First, enterprise users value efficiency above everything, so it's crucial to <b>map out the critical user journey to simplify complex workflows</b>. Second, it's difficult to design a user-friendly experience for an AI-powered ad product.</p>
+
+    <h2>Background</h2>
+    <p>Kwai Ads Manager is a demand-side platform (DSP) that lets advertisers buy and manage short video ads, using AI to generate combinations of ads from their creative assets (images, videos and text) for the target audience.</p>
+    <p><b>Simplifying the integration of complex features</b> such as ad creation, tracking and reporting in one interface, and making human–AI interactions user-friendly, are the key challenges in designing the experience of Kwai for Business.</p>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/background.webp" alt="System diagram of advertisers, agencies, Kwai for Business and users exchanging ads, data and conversions" loading="lazy"></figure>
+
+  <div class="prose">
+    <h2>Designing an AI System for Dynamic Ads</h2>
+    <p>Current UX methods (the double diamond) work well for traditional systems with only a few interaction outcomes, but are less effective for UX–AI systems where ad performance evolves over time. It is hard to explain to users how AI combines ad creative assets, and difficult to know how user behavior changes over time with programmatic inputs.</p>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/ai-system.webp" alt="Double-diamond process for human–AI interaction beside a neural-network diagram of the dynamic ad system" loading="lazy"></figure>
+
+  <div class="prose">
+    <h2>Understanding Users</h2>
+    <p>To better understand the challenges, desires, needs and goals of Kwai for Business agents and advertisers overseas, the team sent out <b>online surveys and conducted in-depth user interviews</b>.</p>
+  </div>
+  <div class="figure pair">
+    <img src="../assets/kwai/interview-1.webp" alt="Team members conducting a user interview at a laptop" loading="lazy">
+    <img src="../assets/kwai/interview-2.webp" alt="An advertiser walking through her workflow on a laptop" loading="lazy">
+  </div>
+  <div class="prose">
+    <p>These findings informed the personas and user journeys that guided the development process and shaped decisions for future interactions. The core experiences include completing ad creation and viewing data reports.</p>
+    <p>A total of 1,306 online surveys (both multiple-choice and open-ended) were collected to uncover which core activities agents are regularly involved in, and what problems they usually have before and after ad delivery. Interviews were conducted with eight of our major agencies and advertisers. Sample questions:</p>
+    <ul>
+      <li>Walk us through a typical working day. When and how often do you use the platform?</li>
+      <li>Have you encountered any difficulties or challenges with the DSP? Please tell us the details.</li>
+      <li>Which functions or experiences matter to you the most? How did you solve them?</li>
+    </ul>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/survey-persona.webp" alt="Bar chart of key concerns for campaign creation beside a user persona of an ad management agent" loading="lazy"></figure>
+
+  <div class="prose">
+    <h2>User Journey Map</h2>
+    <p>We focused on the core experience of ad creation and designed the journey map based on critical insights from the personas and needs. The user workflow later translated into the interaction and interface design of the ads manager.</p>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/journey-map.webp" alt="Journey map across campaign, ad set, ad and post-delivery with actions, emotional states and touchpoints" loading="lazy"></figure>
+
+  <div class="prose">
+    <h2>Ideation</h2>
+    <p>After understanding the interaction system and its opportunities, the team quickly moved to sketching wireframes. The problems we explored include:</p>
+    <ul>
+      <li>How do we let users preview combinations of dynamic assets?</li>
+      <li>How do we make the campaign → ad set → ad creation process more efficient?</li>
+    </ul>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/ideation.webp" alt="Hand-drawn wireframe sketches beside early ad set, ad, targeting and asset selection screens" loading="lazy"></figure>
+
+  <div class="prose">
+    <h2>Solution</h2>
+    <p>Building on ideation, we finalized the interaction details of the ad creation process. The task flow includes: (1) <b>ad set</b>: select the promoted app, targeting, schedule and budget; (2) <b>ad</b>: upload a video or choose from the library, add multiple ad texts and image assets, and set up profile information and tracking.</p>
+    <h3>Create Ad Set</h3>
+    <p>Modular entries for audience targeting and bid settings.</p>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/create-ad-set.webp" alt="Annotated ad set creation screens" loading="lazy"></figure>
+  <div class="prose">
+    <h3>Create Ad</h3>
+    <p>Simplifying human–AI interaction for ad creation.</p>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/create-ad.webp" alt="Annotated ad creation screens with video, text and image asset modules" loading="lazy"></figure>
+  <div class="prose"><h3>Kwai Video Ad</h3></div>
+  <figure class="figure"><img src="../assets/kwai/video-ad.webp" alt="Three phone screens: a Kwai video ad, a Kwai video and a user profile" loading="lazy"></figure>
+  <div class="prose"><h3>Ad Examples of Creative Combinations</h3></div>
+  <figure class="figure"><img src="../assets/kwai/ad-examples.webp" alt="Phone frames showing ad creatives combined across ending frames and card formats" loading="lazy"></figure>
+
+  <div class="prose">
+    <h2>Result</h2>
+    <p>Of 752 surveys collected, 70% of users were satisfied with the product experience. The main metrics (efficient task flow, guidance for the AI system, adaptive performance and feedback) all exceeded 60%. Broken down by workflow, operations and tools, the experience index of different industries follows roughly the same pattern: finance was the most satisfied, while others, including games and online services, had lower scores to address in the next steps.</p>
+  </div>
+  <figure class="figure"><img src="../assets/kwai/results.webp" alt="User satisfaction donut chart, main satisfaction metrics bar chart, and satisfaction scores by industry" loading="lazy"></figure>
+
+  <div class="next">
+    <a href="../#design">← All design work</a>
+    <a href="../numbers-and-forms/">Numbers &amp; Forms →</a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Zhiwen Qiu</div>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
